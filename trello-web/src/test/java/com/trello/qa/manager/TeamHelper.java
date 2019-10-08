@@ -13,11 +13,12 @@ public class TeamHelper extends HelperBase {
     }
 
     public void clickContinueButton() {
+
         click(By.cssSelector("[type=submit]"));
     }
 
     public void fillTeamCreationForm(TeamData team) throws InterruptedException {
-
+        Thread.sleep(3000);
         type(By.cssSelector("[data-test-id='header-create-team-name-input']"), team.getTeamName());
         Thread.sleep(5000);
         type(By.cssSelector("._15aIJYNKhrO4vB"), team.getDescription());
@@ -45,17 +46,19 @@ public class TeamHelper extends HelperBase {
     }
 
     public void deleteTeam() throws InterruptedException {
-        waitElement(By.cssSelector(".quiet-button"));
+        Thread.sleep(3000);
+       // waitElement(By.cssSelector(".quiet-button"));
         //new WebDriverWait(driver,10).
         //    until(ExpectedConditions.elementToBeClickable(By.cssSelector(".quiet-button")));
         click(By.cssSelector(".quiet-button"));
-        waitElement(By.cssSelector(".js-confirm"));
+        Thread.sleep(3000);
+        //waitElement(By.cssSelector(".js-confirm"));
         click(By.cssSelector(".js-confirm"));
     }
 
     public void openSettings() throws InterruptedException {
         Thread.sleep(3000);
-    //   waitElement(By.xpath("//span[contains(text(),'Settings')]"));
+        //   waitElement(By.xpath("//span[contains(text(),'Settings')]"));
         click(By.xpath("//span[contains(text(),'Settings')]"));
     }
 

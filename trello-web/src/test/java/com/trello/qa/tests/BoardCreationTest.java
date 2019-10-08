@@ -2,11 +2,10 @@ package com.trello.qa.tests;
 
 import com.trello.qa.model.BoardData;
 import org.openqa.selenium.By;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -18,6 +17,7 @@ import java.util.List;
 
 
 public class BoardCreationTest extends TestBase {
+
     @DataProvider
     public Iterator<Object[]> validBoard() {
         List<Object[]> list = new ArrayList<>();

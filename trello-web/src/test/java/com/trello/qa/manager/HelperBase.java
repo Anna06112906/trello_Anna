@@ -57,13 +57,14 @@ public class HelperBase {
 
 public void waitElement(By locator){
     int tries = 0;
+    try {
     while (!isElementPresent(locator) && tries<100){
-        try {
             Thread.sleep(100);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         tries++;
+    }
+    Thread.sleep(200);
+    } catch (InterruptedException e) {
+        e.printStackTrace();
     }
 }
 }

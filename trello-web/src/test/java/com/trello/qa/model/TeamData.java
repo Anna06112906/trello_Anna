@@ -19,6 +19,14 @@ public class TeamData {
         return this;
     }
 
+    @Override
+    public String toString() {
+        return "TeamData{" +
+                "teamName='" + teamName + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
+
     public String getTeamName() {
 
         return teamName;
