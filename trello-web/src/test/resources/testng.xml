@@ -11,6 +11,8 @@
             <class name="com.trello.qa.tests.BoardCreationTest"/>
             <class name="com.trello.qa.tests.BoardModificationTasts"/>
             <class name="com.trello.qa.tests.BoardDeletionTest"/>
+            <class name="com.trello.qa.tests.UserModificationTest"/>
+
         </classes>
     </test>
 </suite>

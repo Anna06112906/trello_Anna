@@ -1,0 +1,52 @@
+11:17:11.028 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreation with parameters[]
+11:17:28.049 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreation
+11:17:28.050 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromLeftNavMenu with parameters[]
+11:17:56.079 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromLeftNavMenu
+11:17:56.085 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromLeftNavMenuWithDataProvider with parameters[name, description]
+11:18:24.093 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromLeftNavMenuWithDataProvider
+11:18:24.094 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromLeftNavMenuWithDataProvider with parameters[NAME, DESC]
+11:18:52.094 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromLeftNavMenuWithDataProvider
+11:18:52.095 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromLeftNavMenuWithDataProvider with parameters[1234, 456745]
+11:19:19.998 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromLeftNavMenuWithDataProvider
+11:19:19.998 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromLeftNavMenuWithDataProvider with parameters[$%&*, @##$(]
+11:19:47.916 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromLeftNavMenuWithDataProvider
+11:19:47.916 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromLeftNavMenuWithDataProvider with parameters[name, ]
+11:20:15.842 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromLeftNavMenuWithDataProvider
+11:20:15.845 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromLeftNavMenuWithDataProviderFromcsv with parameters[TeamData{teamName='1', description='1'}]
+11:20:43.724 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromLeftNavMenuWithDataProviderFromcsv
+11:20:43.725 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromLeftNavMenuWithDataProviderFromcsv with parameters[TeamData{teamName='Very long name of the team 123', description='Very long Description for the team 123'}]
+11:21:11.810 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromLeftNavMenuWithDataProviderFromcsv
+11:21:11.810 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromLeftNavMenuWithDataProviderFromcsv with parameters[TeamData{teamName='Team', description='Description'}]
+11:21:39.778 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromLeftNavMenuWithDataProviderFromcsv
+11:21:39.779 [main] INFO  com.trello.qa.tests.TestBase - start test testTeamCreationFromLeftNavMenuWithDataProviderFromcsv with parameters[TeamData{teamName='%^&*(', description='%^&*('}]
+11:22:07.722 [main] INFO  com.trello.qa.tests.TestBase - stop test testTeamCreationFromLeftNavMenuWithDataProviderFromcsv
+11:22:07.727 [main] INFO  com.trello.qa.tests.TestBase - start test testRenameTeam with parameters[]
+11:22:36.117 [main] INFO  com.trello.qa.tests.TestBase - stop test testRenameTeam
+11:22:36.131 [main] INFO  com.trello.qa.tests.TestBase - start test deleteTeamFromLeftNavMenu with parameters[]
+11:25:06.283 [main] INFO  com.trello.qa.tests.TestBase - stop test deleteTeamFromLeftNavMenu
+11:25:06.297 [main] INFO  com.trello.qa.tests.TestBase - start test testBoardCreation with parameters[]
+11:25:22.262 [main] INFO  com.trello.qa.tests.TestBase - stop test testBoardCreation
+11:25:22.262 [main] INFO  com.trello.qa.tests.TestBase - start test testBoardCreationWithDataProvider with parameters[name, description]
+11:25:38.255 [main] INFO  com.trello.qa.tests.TestBase - stop test testBoardCreationWithDataProvider
+11:25:38.255 [main] INFO  com.trello.qa.tests.TestBase - start test testBoardCreationWithDataProvider with parameters[NAME, DESC]
+11:25:54.071 [main] INFO  com.trello.qa.tests.TestBase - stop test testBoardCreationWithDataProvider
+11:25:54.071 [main] INFO  com.trello.qa.tests.TestBase - start test testBoardCreationWithDataProvider with parameters[1234, 456745]
+11:26:09.875 [main] INFO  com.trello.qa.tests.TestBase - stop test testBoardCreationWithDataProvider
+11:26:09.875 [main] INFO  com.trello.qa.tests.TestBase - start test testBoardCreationWithDataProvider with parameters[$%&*, @##$(]
+11:26:25.659 [main] INFO  com.trello.qa.tests.TestBase - stop test testBoardCreationWithDataProvider
+11:26:25.659 [main] INFO  com.trello.qa.tests.TestBase - start test testBoardCreationWithDataProvider with parameters[name, ]
+11:26:41.476 [main] INFO  com.trello.qa.tests.TestBase - stop test testBoardCreationWithDataProvider
+11:26:41.476 [main] INFO  com.trello.qa.tests.TestBase - start test testBoardCreationWithDataProviderFromCsv with parameters[BoardData{boardName='1'}]
+11:26:57.263 [main] INFO  com.trello.qa.tests.TestBase - stop test testBoardCreationWithDataProviderFromCsv
+11:26:57.263 [main] INFO  com.trello.qa.tests.TestBase - start test testBoardCreationWithDataProviderFromCsv with parameters[BoardData{boardName='Very long name of the board 123'}]
+11:27:13.365 [main] INFO  com.trello.qa.tests.TestBase - stop test testBoardCreationWithDataProviderFromCsv
+11:27:13.365 [main] INFO  com.trello.qa.tests.TestBase - start test testBoardCreationWithDataProviderFromCsv with parameters[BoardData{boardName='Board'}]
+11:27:29.188 [main] INFO  com.trello.qa.tests.TestBase - stop test testBoardCreationWithDataProviderFromCsv
+11:27:29.188 [main] INFO  com.trello.qa.tests.TestBase - start test testBoardCreationWithDataProviderFromCsv with parameters[BoardData{boardName='%^&*('}]
+11:27:45.020 [main] INFO  com.trello.qa.tests.TestBase - stop test testBoardCreationWithDataProviderFromCsv
+11:27:45.020 [main] INFO  com.trello.qa.tests.TestBase - start test testRenameBoard with parameters[]
+11:27:53.250 [main] INFO  com.trello.qa.tests.TestBase - stop test testRenameBoard
+11:27:53.251 [main] INFO  com.trello.qa.tests.TestBase - start test deleteBoards with parameters[]
+11:31:55.785 [main] INFO  com.trello.qa.tests.TestBase - stop test deleteBoards
+11:31:55.786 [main] INFO  com.trello.qa.tests.TestBase - start test changeAvatarTest with parameters[]
+11:32:11.595 [main] INFO  com.trello.qa.tests.TestBase - stop test changeAvatarTest

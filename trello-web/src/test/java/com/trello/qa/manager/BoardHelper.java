@@ -18,7 +18,7 @@ waitElement(By.cssSelector("[data-test-id=header-create-board-button]"));
 
 
     public void fillBoardCreationForm(BoardData board) throws InterruptedException {
-        type(By.cssSelector("[data-test-id=header-create-board-title-input]"), board.getBoardName());
+        type(By.cssSelector("[data-test-id=create-board-title-input]"), board.getBoardName());
     }
 
     public void confirmBoardCreation() {
@@ -74,6 +74,7 @@ waitElement(By.cssSelector("[data-test-id=header-create-board-button]"));
 
     public void clickOnFirstPrivateBoard() {
         click(By.xpath("//*[@class='icon-lg icon-member']/../../..//li"));
+        takeScreenshot();
     }
 
 
